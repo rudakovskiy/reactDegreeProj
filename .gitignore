@@ -1,0 +1,46 @@
+api/.idea
+.idea
+sqldialects.xml
+Project_Default.xml
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/bin
+/obj
+/.vs
+/.rider
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Api/GreenHealthApi/GreenHealthApi/bin/Debug/netcoreapp3.1/GreenHealthApi.pdb
+Api/GreenHealthApi/GreenHealthApi/bin/Debug/netcoreapp3.1/GreenHealthApi.dll
+Api/GreenHealthApi/GreenHealthApi/bin/Debug/netcoreapp3.1/GreenHealthApi.deps.json
+*.cache
+Api/GreenHealthApi/GreenHealthApi/obj/Debug/netcoreapp3.1/GreenHealthApi.AssemblyInfo.cs
+Api/GreenHealthApi/GreenHealthApi/obj/GreenHealthApi.csproj.nuget.dgspec.json
+Api/GreenHealthApi/GreenHealthApi/obj/GreenHealthApi.csproj.nuget.g.props
+Api/GreenHealthApi/GreenHealthApi/obj/GreenHealthApi.csproj.nuget.g.targets
+Api/GreenHealthApi/GreenHealthApi/obj/project.assets.json
+Api/GreenHealthApi/GreenHealthApi/obj/project.packagespec.json
+Api/GreenHealthApi/GreenHealthDB/obj/Debug/netcoreapp3.1/GreenHealthDB.AssemblyInfo.cs
+Api/GreenHealthApi/GreenHealthDB/obj/GreenHealthDB.csproj.nuget.dgspec.json
+Api/GreenHealthApi/GreenHealthDB/obj/GreenHealthDB.csproj.nuget.g.props
+Api/GreenHealthApi/GreenHealthDB/obj/GreenHealthDB.csproj.nuget.g.targets
