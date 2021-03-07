@@ -1,0 +1,5 @@
+.main-container {
+    padding-bottom: 90px;
+    padding-top: 30px;
+    min-height: calc(100vh - 100px - 90px - 30px);
+}

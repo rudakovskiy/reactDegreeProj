@@ -1,0 +1,104 @@
+shoppingCart-container {
+    display: flex;
+    justify-content: center;
+}
+.shoppingCart {
+    border-style: solid;
+    border-width: 0.02px;
+    border-color: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.shoppingCart table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.shoppingCart table tr{
+    padding: 20px 0;
+}
+.shoppingCartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoppingCart-buttons{
+    display: flex;
+    justify-content: right;
+}
+
+.shoppingCartItem-deleteButton {
+    width: 76px;
+    height: 30px;
+    background-color: #63a91f;
+    margin: 10px 0;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.shoppingCartItem-deleteButton:hover {
+    background-color: #498119;
+}
+.shoppingCartItem-deleteButton:active {
+    background-color: #3c6815;
+}
+
+.shoppingCart-button {
+    height: 20px;
+    max-width: 150px;
+    background-color: #63a91f;
+    margin: 0 40px;
+    padding: 15px 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.shoppingCart-button:hover {
+    background-color: #498119;
+}
+.shoppingCart-button:active {
+    background-color: #3c6815;
+}
+.shoppingCart-button-clear{
+    display: flex;
+    align-items: center;
+    background-color: #63a91f;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    width: 76px;
+}
+.shoppingCart-button-clear:hover {
+    background-color: #498119;
+}
+.shoppingCart-button-clear:active {
+    background-color: #3c6815;
+}
+
+.shoppingCartItem-DUbutton {
+    width: 20px;
+    height: 20px;
+    background-color: #63a91f;
+    font-weight: 400;
+    color: white;
+    border: none;
+}
+.shoppingCartItem-DUbutton:first-child {
+    margin-left: 7px;
+    margin-right: 3px;
+}
+.shoppingCartItem-DUbutton:hover {
+    background-color: #498119;
+
+}
+.shoppingCartItem-DUbutton:active {
+    background-color: #3c6815;
+
+}

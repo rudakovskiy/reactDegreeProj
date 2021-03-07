@@ -1,0 +1,30 @@
+.shoppingCartItem-container {
+    width: 100%;
+}
+.shoppingCartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoppingCartItem-deleteButton {
+
+}
+.shoppingCartItem-deleteButton {
+    width: 100px;
+    height: 30px;
+    background-color: #63a91f;
+    margin: 10px 0;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.shoppingCartItem-deleteButton:hover {
+    background-color: #498119;
+}
+.shoppingCartItem-deleteButton:active {
+    background-color: #3c6815;
+}

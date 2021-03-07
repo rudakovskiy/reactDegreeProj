@@ -1,0 +1,24 @@
+.product-page-head {
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-page-info {
+    padding: 0 10px;
+}
+
+.product-page-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-page-info-price {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.product-button-container{
+}

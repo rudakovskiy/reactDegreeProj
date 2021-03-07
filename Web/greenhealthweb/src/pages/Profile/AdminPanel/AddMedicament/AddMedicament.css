@@ -1,0 +1,50 @@
+.addMedicament {
+    color: #63a91f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addMedicament-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0.02px;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.addMedicament-form input {
+    min-width: 300px;
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.addMedicament-button {
+    width: 200px;
+    height: 30px;
+    background-color: #63a91f;
+    margin: 10px 0;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.addMedicament-button:hover {
+    background-color: #498119;
+}
+.addMedicament-button:active {
+    background-color: #3c6815;
+}
+.addMedicament-form-cb {
+display: inline;
+
+
+}
+.addMedicament-form-label {
+    display: inline;
+}

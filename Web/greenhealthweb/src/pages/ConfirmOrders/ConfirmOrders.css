@@ -1,0 +1,66 @@
+.confirmOrders-table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+.asdfbb input{
+    display: inline-block;
+    width: 20px;
+}
+.confirmOrders-table tr {
+    width: 100%;
+}
+.confirmOrders-table th{
+    text-align: left;
+    color: #63a91f;
+
+}
+.confirmOrders-table tbody {
+    border-top: 1px solid black;
+    border-color: #1a512e;
+}
+.confirmOrders-subHeading {
+    font-weight: 500;
+    color: #63a91f;
+}
+.confirmOrders-orderDetails{
+    font-weight: 400;
+}
+.confirmOrders-button{
+    display: inline;
+    background-color: #63a91f;
+    font-weight: 300;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+.confirmOrders-button:first-child {
+    margin-right: 3px;
+}
+.confirmOrders-button:hover {
+    background-color: #498119;
+}
+.confirmOrders-button:active {
+    background-color: #3c6815;
+}
+
+.confirmOrders-buttonsBlock{
+    display: flex;
+}
+
+
+.confirmOrders-buttonn{
+    display: inline-block;
+    background-color: #63a91f;
+    font-weight: 300;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+.confirmOrders-buttonn:hover {
+    background-color: #498119;
+}
+.confirmOrders-buttonn:active {
+    background-color: #3c6815;
+}

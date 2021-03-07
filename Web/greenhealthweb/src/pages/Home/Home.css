@@ -1,0 +1,18 @@
+.home {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+}
+.home img {
+    border-radius: 3px;
+}
+.home-aboutUs {
+    color: #63a91f;
+    padding: 70px;
+}
+
+.home-aboutUs p{
+    color: #1a512e;
+}
+.aboutUs-container {
+}

@@ -1,0 +1,63 @@
+
+.formfind {
+    
+    width: 300px;
+    margin: 0 auto;
+}
+.formfind input{
+    
+   display: inline;
+   margin-right: 20px;
+}
+.formfind button{
+    
+    display: inline;
+ }
+.confirmOrders-table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+.confirmOrders-table tr {
+    width: 100%;
+}
+.confirmOrders-table th{
+    text-align: left;
+    color: #63a91f;
+
+}
+.confirmOrders-table tbody {
+    border-top: 1px solid black;
+    border-color: #1a512e;
+}
+.confirmOrders-subHeading {
+    font-weight: 500;
+    color: #63a91f;
+}
+.confirmOrders-orderDetails{
+    font-weight: 400;
+}
+.confirmOrders-button{
+    display: flex;
+    align-items: center;
+    background-color: #63a91f;
+    font-weight: 300;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+.confirmOrders-button:first-child {
+    margin-right: 3px;
+}
+.confirmOrders-button:hover {
+    background-color: #498119;
+}
+.confirmOrders-button:active {
+    background-color: #3c6815;
+}
+
+.confirmOrders-buttonsBlock{
+    display: flex;
+}
